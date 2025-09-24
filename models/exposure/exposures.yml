@@ -1,0 +1,10 @@
+exposures:
+  - name: emp_dept 
+    label: 'emp_dept'
+    type: notebook
+    maturity: high
+    depends_on:
+      - ref('empdept')
+    owner:
+      name: raja
+      email: rajapokur@gmail.com
